@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Bản Thân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f4f7fc; /* Màu nền cho toàn bộ trang */
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #007bff;
+            background-color: #e1efff; /* Màu nền cho tiêu đề */
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .section-title {
+            color: #0056b3;
+            margin-top: 20px;
+        }
+        .skills, .education, .projects, .contact-info {
+            padding: 10px;
+            background-color: #ffffff; /* Màu nền cho các mục */
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Thêm hiệu ứng bóng mờ */
+            margin-top: 10px;
+        }
+        .nav-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+            justify-content: flex-start; /* Căn chỉnh các nút về bên trái */
+        }
+        .nav-buttons a {
+            display: inline-block;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: bold; /* Làm chữ in đậm */
+            color: #007bff; /* Màu chữ */
+            text-decoration: none;
+            text-align: center;
+            border: 2px solid #007bff; /* Thêm viền cho các nút */
+            border-radius: 5px; /* Bo góc cho nút */
+            transition: all 0.3s ease; /* Thêm hiệu ứng chuyển động */
+        }
+        .nav-buttons a:hover {
+            background-color: #007bff; /* Màu nền khi hover */
+            color: white; /* Thay đổi màu chữ khi hover */
+            border-color: #0056b3; /* Thay đổi viền khi hover */
+        }
+        .contact-info {
+            font-style: italic;
+            margin-top: 20px;
+            background-color: #f1f1f1; /* Màu nền cho phần thông tin liên hệ */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Mới thêm: style cho ảnh bên cạnh phần giới thiệu */
+        .intro-container {
+            display: flex;
+            align-items: center;
+            gap: 20px; /* Khoảng cách giữa ảnh và văn bản */
+        }
+        .intro-container img {
+            width: 150px; /* Đặt kích thước ảnh */
+            height: 150px; /* Đặt chiều cao ảnh */
+            border-radius: 50%; /* Làm cho ảnh tròn */
+            object-fit: cover; /* Đảm bảo ảnh không bị méo */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Giới Thiệu Bản Thân</h1>
+    
+    <!-- Navigation Buttons -->
+    <div class="nav-buttons">
+        <a href="#personal-info">Thông Tin Cá Nhân</a>
+        <a href="#skills">Kỹ Năng</a>
+        <a href="#education">Học Vấn</a>
+        <a href="#projects">Dự Án Cá Nhân</a>
+        <a href="#hobbies">Sở Thích</a>
+        <a href="#future-plans">Kế Hoạch Tương Lai</a>
+        <a href="#study-corner">Xem Góc Học Tập</a>
+        <a href="#contact">Thông Tin Liên Hệ</a>
+    </div>
+
+    <h2 class="section-title" id="personal-info">Thông Tin Cá Nhân</h2>
+
+    <!-- Phần giới thiệu bản thân và ảnh -->
+    <div class="intro-container">
+        <img src="">
+        <p>Xin chào! Tôi tên là <strong>Huỳnh Huy Nam</strong>, sinh năm 2007. Tôi là một người đam mê học hỏi và luôn hướng tới những điều mới mẻ để phát triển bản thân.</p>
+    </div>
+
+    <h2 class="section-title" id="skills">Kỹ Năng</h2>
+    <div class="skills">
+        <ul>
+            <li>Kỹ năng tư duy logic và phân tích.</li>
+            <li>Thành thạo các công cụ văn phòng (Word, Excel, PowerPoint,...).</li>
+        </ul>
+    </div>
+
+    <h2 class="section-title" id="education">Học Vấn</h2>
+    <div class="education">
+        <h3>Trường THPT chuyên Lê Khiết </h3>
+        <p><strong>Thời gian:</strong> 2022 - Hiện tại</p>
+        <p><strong>Chuyên ngành:</strong> Tin học </p>
+        <p>HSG lớp 10, 11.</p>
+    </div>
+
+    <h2 class="section-title" id="projects">Dự Án Cá Nhân</h2>
+    <p> Tôi đã thực hiện một số dự án như: Thiết kế website, Văn nghệ 26/03,...</p>
+
+    <h2 class="section-title" id="hobbies">Sở Thích</h2>
+    <p>Tôi thích Nghe nhạc, chơi game,  và luôn dành thời gian cho những hoạt động này để thư giãn và học hỏi thêm nhiều điều mới.</p>
+
+    <h2 class="section-title" id="future-plans">Kế Hoạch Tương Lai</h2>
+    <p>Trong tương lai, tôi mong muốn đạt được các mục tiêu như đậu vào trường Đại học mơ ước, Đạt giải cao trong kì thi HSG. Tôi tin rằng sự nỗ lực và học hỏi không ngừng sẽ giúp tôi đạt được thành công.</p>
+
+    <h2 class="section-title" id="study-corner">Góc Học Tập</h2>
+    <div class="study-corner">
+        <p>Thời khóa biểu:</p>
+        
+        <table>
+            <tr>
+                <th>Ngày</th>
+                <th>Tiết</th>
+                <th>Buổi Sáng</th>
+                <th>Buổi Chiều</th>
+            </tr>
+            <tr>
+                <td rowspan="5">Thứ Hai</td>
+                <td>Tiết 1</td>
+                <td>Chào cờ</td>
+            </tr>
+            <tr>
+                <td>Tiết 2</td>
+                <td>Tin</td>
+            </tr>
+            <tr>
+                <td>Tiết 3</td>
+                <td>Tin</td>
+            </tr>
+            <tr>
+                <td>Tiết 4</td>
+                <td>Hóa</td>
+
+            </tr>
+            <tr>
+                <td>Tiết 5</td>
+                <td>Hóa</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Thứ Ba</td>
+                <td>Tiết 1</td>
+                <td>TD</td>
+
+            </tr>
+            <tr>
+                <td>Tiết 2</td>
+                <td>TD</td>
+            </tr>
+            <tr>
+                <td>Tiết 3</td>
+                <td>Sử</td>
+            </tr>
+            <tr>
+                <td>Tiết 4</td>
+                <td>Toán</td>
+            </tr>
+            <tr>
+                <td>Tiết 5</td>
+                <td>Toán</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Thứ Tư</td>
+                <td>Tiết 1</td>
+                <td>Tin</td>
+                <td>Quốc Phòng</td>
+            </tr>
+            <tr>
+                <td>Tiết 2</td>
+                <td>Tin</td>
+                <td>Quốc Phòng</td>
+            </tr>
+            <tr>
+                <td>Tiết 3</td>
+                <td>Toán</td>
+                <td>TNHN</td>
+            </tr>
+            <tr>
+                <td>Tiết 4</td>
+                <td>Lí</td>
+            </tr>
+            <tr>
+                <td>Tiết 5</td>
+                <td>Lí</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Thứ Năm</td>
+                <td>Tiết 1</td>
+                <td>Anh</td>
+                
+            </tr>
+            <tr>
+                <td>Tiết 2</td>
+                <td>Anh</td>
+            </tr>
+            <tr>
+                <td>Tiết 3</td>
+                <td>Sinh</td>
+            </tr>
+            <tr>
+                <td>Tiết 4</td>
+                <td>Tin</td>
+            </tr>
+            <tr>
+                <td>Tiết 5</td>
+                <td>Tin</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Thứ Sáu</td>
+                <td>Tiết 1</td>
+                <td>Văn</td>
+            </tr>
+            <tr>
+                <td>Tiết 2</td>
+                <td>Văn</td>
+            </tr>
+            <tr>
+                <td>Tiết 3</td>
+                <td>Sử</td>
+            </tr>
+            <tr>
+                <td>Tiết 4</td>
+                <td>Tiếng Anh</td>
+            </tr>
+            <tr>
+                <td>Tiết 5</td>
+                <td>GDĐP</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Thứ Bảy</td>
+                <td>Tiết 1</td>
+                <td>Hóa</td>
+            </tr>
+            <tr>
+                <td>Tiết 2</td>
+                <td>Văn</td>
+            </tr>
+            <tr>
+                <td>Tiết 3</td>
+                <td>Sinh</td>
+            </tr>
+            <tr>
+                <td>Tiết 4</td>
+                <td>Lí</td>
+            </tr>
+            <tr>
+                <td>Tiết 5</td>
+                <td>SHL</td>
+            </tr>
+        </table>
+    </div>
+
+    <h2 class="section-title" id="contact">Thông Tin Liên Hệ</h2>
+    <div class="contact-info">
+        <p><strong>Email:</strong> hhnam4407@gmail.</p>
+        <p><strong>Số điện thoại:</strong>0975230552  </p>
+        <p><strong>Facebook:</strong> <a href="https://web.facebook.com/huynam.huynh.3?locale=vi_VN" target="_blank">Huy_Nam</a></p>
+        <p><strong>Link liên kết tới trang giới thiệu bản thân của con chó Hữu Quốc:</strong> <a href="file:///C:/Users/HP/Documents/lop12/HuuQuoc06.html" target="_blank">Huy_Nam</a></p>
+    </div>
+
+</body>
+</html>
